@@ -1,0 +1,54 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+img{
+  height: 30px;
+  width: 100px;
+  border-radius: 30%;
+
+}
+
+mat-sidenav-container{
+  height: calc(100vh - 50px);
+}
+
+mat-sidenav{
+  background-color: darkcyan;
+  width: 200px;
+  margin: 2px;
+  padding: 4px;
+  border-radius: 10px;
+  
+  
+}
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .btn:hover{
+  background-color: lightgray;
+  width: 190px;
+}
+.btn:focus{
+  background-color: lightgray;
+  width: 190px;
+} */
+
+.btn{
+    background-color: lightgray !important;
+    width: 190px;
+}
+
+.btn2:hover{
+  background-color: lightgray !important;
+  width: 190px;
+}

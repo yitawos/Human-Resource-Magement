@@ -1,0 +1,53 @@
+<div class="left">
+  <button routerLink="/employee" mat-raised-button color="primary"> <i class="fa fa-arrow-left">Back to Employee Page</i>
+      <i class="fa fa-arow-left"></i>
+    </button>
+ </div>
+ 
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar>
+        <mat-icon>perm_identity</mat-icon>
+      </div>
+      <mat-card-title>{{userData.fristName}} {{userData.lastName}}</mat-card-title>
+      <mat-card-subtitle>{{userData.email}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-list role="list">
+        <mat-list-item>
+            <div mat-line>
+              Phone : 
+              <button mat-button>{{userData.phone}}</button>
+            </div>
+        </mat-list-item>
+        <mat-list-item>
+            <div mat-line>
+              Address: 
+              <button mat-button>{{userData.address}}</button>
+            </div>
+        </mat-list-item>
+        <mat-list-item>
+            <div mat-line>
+              Age : 
+              <button mat-button>{{userData.age}}</button>
+            </div>
+        </mat-list-item>
+        <mat-list-item>
+            <div mat-line>
+              Date Of Employement : 
+              <button mat-button>{{userData.date | date}}</button>
+            </div>
+        </mat-list-item>
+        <mat-list-item>
+            <div mat-line>
+              Gender : 
+              <button mat-button>{{userData.gender}}</button>
+            </div>
+        </mat-list-item>
+
+      </mat-list>
+    <mat-card-actions>
+   
+    </mat-card-actions>
+  </mat-card>
+
